@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <!-- These two lines provide automatic page and style reloading when files change -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/lib/client/updater.js" defer></script>
+    <script src="jsfile.js" type="module" defer></script>
+
+    <link rel="stylesheet" href="projectstyle.css">
+  </head>
+  <body>
+    
+    <h1>The Emotional Hub</h1>
+    <section class="columns">
+      <div class="column" id="c1">
+        <h2>Some Positivity</h2>
+
+        <button type="button" value="image" id="smiley_button">
+          <figure>
+            <img src="images/newSmiley.png" id="smiley">
+            <figcaption>Click me for some Encouragement!</figcaption>
+          </figure>
+        </button>
+      </div>
+      <div class="column" id="c2">
+        <h2>Today's Reflection</h2>
+
+        <!-- <h3>Login:</h3> -->
+        <form id="login-form">
+          <label for="login-form">Login/Create User: </label>
+          <input type="text" id="login-input" placeholder="userID">
+          <button type="submit" form="login-form" value="Login">Go</button>
+        </form>
+      </div>
+      <div class="column" id="c3">
+        
+        <h2 id="userinfo">I'm currently feeling...</h2>
+ 
+        
+      </div>
+    </section>
+
+
+
+  
+
+

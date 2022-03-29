@@ -1,0 +1,107 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #effaf6;
+}
+
+h1 {
+    text-align: center;
+}
+
+#response-form {
+    text-align: center;
+}
+
+#smiley {
+    width: 30%;
+}
+
+#smiley_button {
+    background-color: pink;
+    margin: 0px 10px 0px; 
+}
+
+textarea {
+    resize: none; 
+}
+
+.columns{
+    display: flex;
+}
+
+.column {
+    float: left;
+    text-align: center;
+}
+
+#c1 {
+    width: 30em; 
+    border-right: gray;
+    border-right: 1px solid lightgray; 
+
+}
+
+.column {
+    background-color: #7c99fa;
+    height: 50em; 
+}
+
+#c2 {
+    width: 60em; 
+    border-right: 1px solid lightgray; 
+}
+
+#c3 {
+    display: flex;
+    flex-direction: column; 
+    width: 30em; 
+    align-items: center;
+
+}
+
+.editableText {
+    display: flex;
+    width: 200px
+  }
+  
+  .editableText > :first-child {
+    flex-grow: 1;
+    margin-right: 0.5rem;
+    
+  }
+  
+  .editableText input {
+    min-width: 0;
+  }
+  
+  .editableText span {
+    background-color: #e6ecf0;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    justify-content: center;
+  }
+  
+  .editableText button {
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+  }
+  
+  .PositivityPiece > img {
+      border-radius: 25%;
+      width: 95%;
+      height: 60%;
+      margin-top: 10px
+  }
+
+  #finalButtonsContainer{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 25%;
+  }
+   #finalButtonsContainer > button{
+    width: 200px;
+} 
+  
